@@ -219,10 +219,12 @@ export default function handler(req, res) {
             description: "Returns the capital of a given country",
             input: {
                 type: "string",
+                description: "Input the name of a country you would like to see the capital of",
                 example: "United Kingdom"
             },
             output: {
                 type: "string",
+                description: "Capital of country",
                 example: "London"
             }
         });
